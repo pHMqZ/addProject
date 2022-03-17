@@ -1,4 +1,4 @@
-package com.pms.add;
+package com.pms.add.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

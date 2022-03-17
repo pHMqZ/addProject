@@ -25,9 +25,11 @@
     <li> Maven 3.6.3 ou superior;</li>
     <li> IDE de sua preferência</li>
     <li> MySQL server ou Xampp.</li>
+    <li> Angular 8</li>
 </ol>
 
 <h3> Como rodar a aplicação:</h3>
+<p> Back-end:</p>
 <ol> Pela IDE:
     <li> Garantir que o server MySQL está rodando ou ativar utilizando o programa Xampp;</li>
     <li> No nome da API, clicar com o botão direito, ir até run as e por final clicar na opção 'Spring Boot App';</li>
@@ -37,8 +39,12 @@
     <li> Garantir que o server MySQL está rodando ou ativar utilizando o programa Xampp;</li>
     <li> Iniciar o prompt de comando na pasta onde está a API</li>
     <li> Rodar o seguinte comando:</li>
-    ``` mvn spring-boot:run```
+    ``` 
+    mvn spring-boot:run
+    ```
     <li> Aguardar a API terminar e realizar as requisições</li>
 </ol>
+<p>Front-end:</p>
+    <li></li>
 
 Projeto realizado por [Phillip Marques](https://www.linkedin.com/in/phillip-marques-201832161/ "Phillip Marques")
