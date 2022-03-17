@@ -38,22 +38,18 @@
 <ol> Pelo CMD:
     <li> Garantir que o server MySQL está rodando ou ativar utilizando o programa Xampp;</li>
     <li> Iniciar o prompt de comando na pasta onde está a API;</li>
-    <li> Rodar o seguinte comando:</li>
-    ``` 
+    <li> Rodar o seguinte comando:</li> 
     mvn spring-boot:run
-    ```
     <li> Aguardar a API terminar de inicializar</li>
 </ol>
 <p>Front-end:</p>
+<ol>
     <li> Iniciar o prompt de comando na pasta do frontend da API;</li>
     <li> Rodar o seguinte comando:</li>
-    ```
     ng serve
-    ```
     <li>Apos o frontend estiver inicializado, acessar o link abaixo e utilizar a API</li>
-    ```
     http://localhost:4200
-    ```
+</ol>
     
 
 
