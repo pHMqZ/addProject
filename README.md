@@ -1,6 +1,6 @@
-<h1> RESTApi - Escola</h1>
+<h1> RESTApi - Cadastro de Alunos</h1>
 
-<h3> Projeto para implemantação de RESTApi de Escolas - .add</h3>
+<h3> Projeto para implemantação de RESTApi - .add</h3>
 
 <p> Aplicação possue 4 entidades, sendo elas:</p>
 <ol>
@@ -33,18 +33,28 @@
 <ol> Pela IDE:
     <li> Garantir que o server MySQL está rodando ou ativar utilizando o programa Xampp;</li>
     <li> No nome da API, clicar com o botão direito, ir até run as e por final clicar na opção 'Spring Boot App';</li>
-    <li>Aguardar a API terminar de inicializar e realizar as requisições</li>
+    <li>Aguardar a API terminar de inicializar</li>
 </ol>
 <ol> Pelo CMD:
     <li> Garantir que o server MySQL está rodando ou ativar utilizando o programa Xampp;</li>
-    <li> Iniciar o prompt de comando na pasta onde está a API</li>
+    <li> Iniciar o prompt de comando na pasta onde está a API;</li>
     <li> Rodar o seguinte comando:</li>
     ``` 
     mvn spring-boot:run
     ```
-    <li> Aguardar a API terminar e realizar as requisições</li>
+    <li> Aguardar a API terminar de inicializar</li>
 </ol>
 <p>Front-end:</p>
-    <li></li>
+    <li> Iniciar o prompt de comando na pasta do frontend da API;</li>
+    <li> Rodar o seguinte comando:</li>
+    ```
+    ng serve
+    ```
+    <li>Apos o frontend estiver inicializado, acessar o link abaixo e utilizar a API</li>
+    ```
+    http://localhost:4200
+    ```
+    
+
 
 Projeto realizado por [Phillip Marques](https://www.linkedin.com/in/phillip-marques-201832161/ "Phillip Marques")
