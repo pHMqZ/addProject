@@ -1,0 +1,19 @@
+
+<div class="margem">
+    <mat-card>
+        <mat-card-subtitle align="center">Alunos cadastrados na base de dados</mat-card-subtitle>
+        <table matSort (matSortChange)="aluno">
+            <tr>
+            <th mat-sort-header="id">ID</th>
+            <th mat-sort-header="nome">Nome</th>
+            <th mat-sort-header="dataNascimento">Data de Nascimento</th>
+            </tr>
+        
+            <tr *ngFor="let element of aluno">
+            <td>{{element.id}}</td>
+            <td>{{element.nome}}</td>
+            <td>{{element.dataNascimento}}</td>
+            </tr>
+        </table>
+    </mat-card>
+</div>
